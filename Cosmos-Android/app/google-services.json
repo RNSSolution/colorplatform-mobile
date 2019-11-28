@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "717753503322",
+    "firebase_url": "https://colors-720ad.firebaseio.com",
+    "project_id": "colors-720ad",
+    "storage_bucket": "colors-720ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717753503322:android:78822fd7ecb0b6340b5263",
+        "android_client_info": {
+          "package_name": "wannabit.io.cosmostaion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717753503322-isiabcjg2mjud6csj9ofh7ipqbja782j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE6OYfIIfX92XAO0_vmvMjJgPlcqV9bcc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717753503322-isiabcjg2mjud6csj9ofh7ipqbja782j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

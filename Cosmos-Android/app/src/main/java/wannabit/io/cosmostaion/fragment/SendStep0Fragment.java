@@ -73,7 +73,7 @@ public class SendStep0Fragment extends BaseFragment implements View.OnClickListe
             }
 
             if (getSActivity().mBaseChain.equals(BaseChain.COSMOS_MAIN)) {
-                if (targetAddress.startsWith("cosmos") && WKey.isValidBech32(targetAddress)) {
+                if (targetAddress.startsWith("colors") && WKey.isValidBech32(targetAddress)) {
                     getSActivity().mTagetAddress = targetAddress;
                     getSActivity().onNextStep();
                 } else {

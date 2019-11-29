@@ -198,7 +198,7 @@ public class BaseConstant {
     public final static int                     ERROR_CODE_BROADCAST	                        = 8004;
 
 
-    public final static String                  COSMOS_ATOM                                     = "uatom";
+    public final static String                  COSMOS_ATOM                                     = "uclr";
     public final static String                  COSMOS_MUON                                     = "muon";
     public final static String                  COSMOS_PHOTON                                   = "photon";
     public final static String                  COSMOS_PHOTINO                                  = "photino";

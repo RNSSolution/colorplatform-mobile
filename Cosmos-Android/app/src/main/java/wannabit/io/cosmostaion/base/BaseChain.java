@@ -3,10 +3,10 @@ package wannabit.io.cosmostaion.base;
 import static wannabit.io.cosmostaion.base.BaseConstant.IS_TEST;
 
 public enum BaseChain {
-    COSMOS_LEGACY1("cosmoshub-1"),
-    COSMOS_LEGACY2("cosmoshub-2"),
-    COSMOS_LEGACY3("cosmoshub-3"),
-    COSMOS_MAIN("cosmoshub-2"),
+    COSMOS_LEGACY1("colors-test-01"),
+    COSMOS_LEGACY2("colors-test-01"),
+    COSMOS_LEGACY3("colors-test-01"),
+    COSMOS_MAIN("colors-test-01"),
     IRIS_MAIN("irishub"),
     IOV_MAIN("iov-mainnet"),
     BNB_MAIN("Binance-Chain-Tigris"),

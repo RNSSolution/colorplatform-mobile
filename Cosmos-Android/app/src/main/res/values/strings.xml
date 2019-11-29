@@ -6,7 +6,7 @@
     <string name="url_coingecko" translatable="false">https://api.coingecko.com/</string>
     <string name="url_keybase" translatable="false">https://keybase.io/</string>
 
-    <string name="url_lcd_main" translatable="false">https://lcd-app.cosmostation.io/</string>
+    <string name="url_lcd_main" translatable="false">https://lcd.testnet.color-platform.rnssol.com</string>
     <!--<string name="url_lcd_main" translatable="false">https://lcd-cosmos-testnet.cosmostation.io/</string>-->
     <string name="url_lcd_main_iris" translatable="false">https://lcd-iris.cosmostation.io/</string>
     <string name="url_lcd_main_kava" translatable="false">https://lcd-kava.cosmostation.io/</string>
@@ -527,7 +527,7 @@
     <string name="error_max_account_over">Max account is 5.</string>
     <string name="error_reward_address_changed_msg">This account has changed its reward address.\nYou can user re-invest feature after reset your reward address to self.</string>
     <string name="error_no_password">PIN number not set</string>
-    <string name="error_invalid_cosmos_address">Invalid Cosmos Address.</string>
+    <string name="error_invalid_cosmos_address">Invalid Colors Address.</string>
     <string name="error_invalid_iris_address">Invalid Iris Address.</string>
     <string name="error_invalid_bnb_address">Invalid Binance Address.</string>
     <string name="error_invalid_iov_address">Invalid Iov Address.</string>

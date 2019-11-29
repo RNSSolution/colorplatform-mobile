@@ -187,7 +187,7 @@ public class WKey {
 
         try {
             byte[] converted = convertBits(hash3, 8,5,true);
-            result = bech32Encode("cosmos".getBytes(), converted);
+            result = bech32Encode("colors".getBytes(), converted);
         } catch (Exception e) {
             WLog.w("getCosmosUserDpAddress Error");
         }
@@ -210,7 +210,7 @@ public class WKey {
             try {
                 byte[] converted = convertBits(hash3, 8,5,true);
                 if (chain.equals(COSMOS_MAIN)) {
-                    result = bech32Encode("cosmos".getBytes(), converted);
+                    result = bech32Encode("colors".getBytes(), converted);
                 } else if (chain.equals(IRIS_MAIN)){
                     result = bech32Encode("iaa".getBytes(), converted);
                 } else if (chain.equals(BNB_MAIN)){
@@ -243,7 +243,7 @@ public class WKey {
         byte[] sumHexByte   = WUtil.HexStringToByteArray(sumHex);
         try {
             byte[] converted = convertBits(sumHexByte, 8,5,true);
-            result = bech32Encode("cosmospub".getBytes(), converted);
+            result = bech32Encode("colorspub".getBytes(), converted);
         } catch (Exception e) {
             WLog.w("getCosmosUserDpPubKey Error");
 
@@ -266,12 +266,12 @@ public class WKey {
     }
 
     public static String convertDpAddressToDpOpAddress(String dpAddress) {
-        return bech32Encode("cosmosvaloper".getBytes(), bech32Decode(dpAddress).data);
+        return bech32Encode("colorsvaloper".getBytes(), bech32Decode(dpAddress).data);
     }
 
     public static String convertDpOpAddressToDpAddress(String dpOpAddress, BaseChain chain) {
         if (chain.equals(COSMOS_MAIN)) {
-            return bech32Encode("cosmos".getBytes(), bech32Decode(dpOpAddress).data);
+            return bech32Encode("colors".getBytes(), bech32Decode(dpOpAddress).data);
         } else if (chain.equals(IRIS_MAIN)) {
             return bech32Encode("iaa".getBytes(), bech32Decode(dpOpAddress).data);
         } else {
@@ -281,7 +281,7 @@ public class WKey {
 
     public static String convertDpAddressToDpOpAddress(String dpOpAddress, BaseChain chain) {
         if (chain.equals(COSMOS_MAIN)) {
-            return bech32Encode("cosmosvaloper".getBytes(), bech32Decode(dpOpAddress).data);
+            return bech32Encode("colorsvaloper".getBytes(), bech32Decode(dpOpAddress).data);
         } else if (chain.equals(IRIS_MAIN)) {
             return bech32Encode("iva".getBytes(), bech32Decode(dpOpAddress).data);
         } else {

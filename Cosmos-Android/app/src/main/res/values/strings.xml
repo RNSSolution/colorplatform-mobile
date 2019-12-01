@@ -679,8 +679,8 @@
     <string name="photino_fee_l" translatable="false">60</string>
     <string name="photino_fee_m" translatable="false">120</string>
     <string name="photino_fee_h" translatable="false">240</string>
-
-
+    <string name="str_send">Send</string>
+    <string name="str_receive">Receive</string>
 
 
 </resources>

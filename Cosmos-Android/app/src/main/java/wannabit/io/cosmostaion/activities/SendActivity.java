@@ -49,6 +49,7 @@ public class SendActivity extends BaseActivity {
     private SendPageAdapter         mPageAdapter;
 
     public String                   mTagetAddress;
+    public static String            mTagetAmount;
     public ArrayList<Coin>          mTargetCoins;
     public String                   mTargetMemo;
     public Fee                      mTargetFee;

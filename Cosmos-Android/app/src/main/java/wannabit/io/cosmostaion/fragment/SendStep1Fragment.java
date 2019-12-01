@@ -238,6 +238,9 @@ public class SendStep1Fragment extends BaseFragment implements View.OnClickListe
             getSActivity().onBackPressed();
         }
 
+        mAmountInput.setText(getSActivity().mTagetAmount);
+        mAmountInput.setSelection(mAmountInput.getText().length());
+
         if (getSActivity().mBaseChain.equals(BaseChain.COSMOS_MAIN)) {
             WDp.DpMainDenom(getContext(), getSActivity().mBaseChain.getChain(), mDenomTitle);
             mMaxAvailable = getSActivity().mAccount.getAtomBalance().subtract(BigDecimal.ONE);

@@ -31,6 +31,7 @@ public class SendStep0Fragment extends BaseFragment implements View.OnClickListe
     private EditText        mAddressInput;
     private Button          mCancel, mNextBtn;
     private LinearLayout    mBtnQr, mBtnPaste, mBtnHistory;
+    private String          scannedText[], sAmount = "";
 
     public static SendStep0Fragment newInstance(Bundle bundle) {
         SendStep0Fragment fragment = new SendStep0Fragment();
@@ -152,8 +153,20 @@ public class SendStep0Fragment extends BaseFragment implements View.OnClickListe
         IntentResult result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data);
         if(result != null) {
             if(result.getContents() != null) {
-                mAddressInput.setText(result.getContents().trim());
-                mAddressInput.setSelection(mAddressInput.getText().length());
+                if(result.getContents().contains("/")){
+                    scannedText = result.getContents().split("/");
+                    sAmount = scannedText[1];
+                    getSActivity().mTagetAmount = scannedText[1];
+
+                    if(!scannedText[0].isEmpty()){
+                        mAddressInput.setText(scannedText[0]);
+                        mAddressInput.setSelection(mAddressInput.getText().length());
+                    }
+                }else{
+                    mAddressInput.setText(result.getContents().trim());
+                    mAddressInput.setSelection(mAddressInput.getText().length());
+                }
+
             }
         } else {
             super.onActivityResult(requestCode, resultCode, data);

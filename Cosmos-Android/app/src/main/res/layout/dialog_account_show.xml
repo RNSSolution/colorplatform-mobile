@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="@dimen/space_32">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -12,6 +13,7 @@
         android:orientation="vertical"
         android:gravity="center_horizontal">
 
+        <!-- heading text -->
         <TextView
             android:id="@+id/wallet_name"
             android:layout_width="wrap_content"
@@ -21,7 +23,7 @@
             android:gravity="center"
             android:text="Sent Transaction Succesfully"/>
 
-
+        <!-- QR image view -->
         <ImageView
             android:id="@+id/wallet_address_qr"
             android:layout_width="@dimen/space_120"
@@ -30,6 +32,7 @@
             android:layout_marginTop="@dimen/space_16"
             android:scaleType="fitXY"/>
 
+        <!-- address text -->
         <TextView
             android:id="@+id/wallet_address_tv"
             android:layout_width="match_parent"
@@ -40,7 +43,6 @@
             android:gravity="center"
             android:text="sdasasdasdasdasdasdasdasdasdsadasdsad"
             style="@style/font_ss_11_gray1"/>
-
 
         <View
             android:layout_width="match_parent"

@@ -30,7 +30,8 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:src="@drawable/cosmostaion"
-                android:scaleType="fitXY"/>
+                android:scaleType="fitXY"
+                android:visibility="invisible"/>
             <com.romainpiel.shimmer.ShimmerTextView
                 android:id="@+id/logo_title"
                 android:layout_width="wrap_content"
@@ -69,7 +70,8 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/cosmostation_logo"/>
+            android:src="@drawable/cosmostation_logo"
+            android:visibility="invisible"/>
     </LinearLayout>
 
 

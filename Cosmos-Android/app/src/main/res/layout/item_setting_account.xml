@@ -64,7 +64,7 @@
                         android:layout_alignParentRight="true"
                         android:layout_alignBaseline="@+id/wallet_name"
                         style="@style/font_ss_10_atom"
-                        android:text="ATOM"/>
+                        android:text="CLR"/>
 
                     <TextView
                         android:id="@+id/wallet_balance_amount"

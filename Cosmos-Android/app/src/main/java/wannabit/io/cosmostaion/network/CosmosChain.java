@@ -16,6 +16,7 @@ import wannabit.io.cosmostaion.model.type.Redelegate;
 import wannabit.io.cosmostaion.model.type.Validator;
 import wannabit.io.cosmostaion.network.req.ReqBroadCast;
 import wannabit.io.cosmostaion.network.res.ResBlockInfo;
+import wannabit.io.cosmostaion.network.res.ResBnbHistories;
 import wannabit.io.cosmostaion.network.res.ResBroadTx;
 import wannabit.io.cosmostaion.network.res.ResLcdAccountInfo;
 import wannabit.io.cosmostaion.network.res.ResLcdBonding;
@@ -169,5 +170,10 @@ public interface CosmosChain {
 
     @GET("/gov/proposals/{proposalId}/tally")
     Call<ResLcdProposalTally> getTally(@Path("proposalId") String proposalId);
+
+    // New changes
+    @GET("/api/v1/transactions")
+    Call<JsonObject> getValuesFromURL(@Query("address") String address, @Query("startTime") String startTime, @Query("endTime") String endTime, @Query("txAsset") String txAsset);
+
 
 }

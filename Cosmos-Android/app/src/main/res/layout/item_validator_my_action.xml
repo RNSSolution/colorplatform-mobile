@@ -173,7 +173,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/space_4"
                     android:layout_alignBaseline="@+id/validator_atom_reward"
-                    android:text="ATOM"
+                    android:text="CLR"
                     style="@style/font_ss_10_atom"/>
                 <TextView
                     android:id="@+id/validator_atom_reward"

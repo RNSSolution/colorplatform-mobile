@@ -49,7 +49,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="@dimen/space_12"
-                android:text="ATOM"
+                android:text="CLR"
                 style="@style/font_ss_14_atom" />
         </RelativeLayout>
     </RelativeLayout>

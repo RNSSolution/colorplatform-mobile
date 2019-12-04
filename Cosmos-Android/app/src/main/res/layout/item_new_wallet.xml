@@ -58,7 +58,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:text="ATOM"
+                    android:text="CLR"
                     style="@style/font_ss_9_atom"/>
                 <TextView
                     android:id="@+id/atom_amount"

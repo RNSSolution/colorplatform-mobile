@@ -1,12 +1,12 @@
 <resources>
-    <string name="app_name">Cosmostation</string>
+    <string name="app_name">Color</string>
     <string name="db_password" translatable="false">wannabit</string>
 
     <string name="url_coinmarketcap" translatable="false">https://api.coinmarketcap.com/</string>
     <string name="url_coingecko" translatable="false">https://api.coingecko.com/</string>
     <string name="url_keybase" translatable="false">https://keybase.io/</string>
 
-    <string name="url_lcd_main" translatable="false">https://lcd.testnet.color-platform.rnssol.com</string>
+    <string name="url_lcd_main" translatable="false">https://lcd.testnet.color-platform.org</string>
     <!--<string name="url_lcd_main" translatable="false">https://lcd-cosmos-testnet.cosmostation.io/</string>-->
     <string name="url_lcd_main_iris" translatable="false">https://lcd-iris.cosmostation.io/</string>
     <string name="url_lcd_main_kava" translatable="false">https://lcd-kava.cosmostation.io/</string>
@@ -17,7 +17,7 @@
 
     <string name="key_mnemonic" translatable="false">MNEMONIC_KEY</string>
     <string name="key_password" translatable="false">PASSWORD_KEY</string>
-    <string name="str_atom_c" translatable="false">ATOM</string>
+    <string name="str_atom_c" translatable="false">CLR</string>
     <string name="str_photon_c" translatable="false">PHOTINO</string>
     <string name="str_kava_c" translatable="false">KAVA</string>
 
@@ -197,7 +197,7 @@
     <string name="str_permission_push">Need permission for Phone State for push alaram service</string>
     <string name="str_gaia_12k">(testnet gaia - 12k)</string>
     <string name="str_gaia_13k">(testnet gaia - 13k)</string>
-    <string name="str_cosmos_hub" translatable="false">(Cosmos Hub)</string>
+    <string name="str_cosmos_hub" translatable="false">(Color Platform)</string>
     <string name="str_iris_net" translatable="false">(Iris Hub)</string>
     <string name="str_binance_net" translatable="false">(Binance Chain)</string>
     <string name="str_iov_net" translatable="false">(IOV Chain)</string>
@@ -269,7 +269,7 @@
     <string name="str_max_available_send_amount"><![CDATA[Max Available : ]]></string>
     <string name="str_tx_error_description">Transaction request failed. \nPlease check the error code and message.</string>
     <string name="str_success_loading">Transaction request submitted successfully. \nAfter a few moments, the full results will be displayed.</string>
-    <string name="str_front_guide_title"><![CDATA[COSMOS HUB]]></string>
+    <string name="str_front_guide_title"><![CDATA[COLOR PLATFROM]]></string>
     <string name="str_front_guide_title_iris"><![CDATA[IRIS HUB]]></string>
     <string name="str_front_guide_title_binance"><![CDATA[BINANCE CHAIN]]></string>
     <string name="str_front_guide_title_kava"><![CDATA[KAVA CHAIN]]></string>
@@ -294,10 +294,10 @@
     <string name="str_fee_speed_title_bnb">Support fixed transfer fee for Bianace dex.</string>
     <string name="str_fee_speed_title_kava">Support fixed transfer fee for KAVA Chain.\nSoon update for custom fees.</string>
     <string name="str_fee_speed_title_iov">Support fixed transfer fee for IOV Chain.</string>
-    <string name="str_fee_description_title_0">Tx fee 0.000001 ATOM</string>
+    <string name="str_fee_description_title_0">Tx fee 0.000001 CLR</string>
     <string name="str_fee_description_title_1">Tx fee rate 0.0025</string>
     <string name="str_fee_description_title_2">Tx fee rate 0.025</string>
-    <string name="str_fee_description_msg_0">Only a handful of validators will process this Tx. Validators with a minimum Tx fee setting of 0.000001 ATOM or less must propose a block in order for this Tx to be included. Depending on which validator is proposing the block at the time of your Tx, there may be a delay in having your Tx reflected on the blockchain.\n\nMinimum Tx fee is a value set by each validator. If a validator has a higher node Tx fee setting, it means that a higher Tx fee is required from the user in order to include the Tx in the block proposed by the validator.\n\nValidators that currently accept this Tx fee: Polychain Labs, jackzampolin, Forbole, Cryptium Labs, BouBounNode</string>
+    <string name="str_fee_description_msg_0">Only a handful of validators will process this Tx. Validators with a minimum Tx fee setting of 0.000001 CLR or less must propose a block in order for this Tx to be included. Depending on which validator is proposing the block at the time of your Tx, there may be a delay in having your Tx reflected on the blockchain.\n\nMinimum Tx fee is a value set by each validator. If a validator has a higher node Tx fee setting, it means that a higher Tx fee is required from the user in order to include the Tx in the block proposed by the validator.\n\nValidators that currently accept this Tx fee: Polychain Labs, jackzampolin, Forbole, Cryptium Labs, BouBounNode</string>
     <string name="str_fee_description_msg_1">This Tx will be processed by Cosmostation and other validators with a minimum Tx fee rate setting lower than or equal to 0.0025. Depending on which validator is proposing the block at the time of your Tx, there may be a delay in having your Tx reflected on the blockchain.\n\nMinimum Tx fee is a value set by each validator. If a validator has a higher node Tx fee setting, it means that a higher Tx fee is required from the user in order to include the Tx in the block proposed by the validator.\n\nValidators that currently accept this Tx fee: Cosmostation, Polychain Labs, jackzampolin, Forbole, Cryptium Labs, BouBounNode</string>
     <string name="str_fee_description_msg_2">The majority of validators have a minimum Tx fee rate higher than or equal to 0.025. Most validators will process this Tx. Therefore, there is a higher probability of your Tx being reflected on the blockchain within one block time(~7 seconds) when you use a Tx fee rate of 0.025.\n\nMinimum Tx fee is a value set by each validator. If a validator has a higher node Tx fee setting, it means that a higher Tx fee is required from the user in order to include the Tx in the block proposed by the validator.\n\nValidators that currently accept this Tx fee: Majority(~80%) of validators.</string>
     <string name="str_empty_warnning_title">Warning</string>
@@ -402,7 +402,7 @@
     <string name="str_intro"></string>
     <string name="str_no_history_with_this_validator">No history.</string>
     <string name="str_let_start_cosmos">Explore the Cosmos Hub</string>
-    <string name="str_let_start_cosmos2">Delegate your ATOM and claim rewards with Cosmostation.\nFast and easy transactions with local signing!</string>
+    <string name="str_let_start_cosmos2">Delegate your CLR and claim rewards with Cosmostation.\nFast and easy transactions with local signing!</string>
     <string name="str_change_nickname">Change wallet Name</string>
     <string name="str_wallet_nickname">Wallet Name</string>
     <string name="str_start_delegate">Receive a certain amount of interest\nfrom delegating to validators.</string>
@@ -517,7 +517,7 @@
     <string name="error_prepare">Preparing...</string>
     <string name="error_not_enough_fee">Not enough available balance for fee.</string>
     <string name="error_network_error">Network connection problem.</string>
-    <string name="error_only_atom_for_fee">Currently only supports ATOM as Tx fee.</string>
+    <string name="error_only_atom_for_fee">Currently only supports CLR as Tx fee.</string>
     <string name="error_disabled_jailed">Delegation to jailed validator is not supported.</string>
     <string name="error_unbond_cnt_over">Exceeded maximum undelegation count.</string>
     <string name="error_unbond_cnt_over_iris">Please wait 21 days until your unbonding is processed. You will be able to undelegate again once unbonding is completed.</string>
@@ -538,7 +538,7 @@
     <string name="error_not_voting_period">Not voting period.</string>
     <string name="error_no_option">Please select your opinion.</string>
 
-    <string name="s_atom">ATOM</string>
+    <string name="s_atom">CLR</string>
     <string name="s_photon">PHOTON</string>
     <string name="s_muon">MUON</string>
     <string name="s_photino">PHOTINO</string>

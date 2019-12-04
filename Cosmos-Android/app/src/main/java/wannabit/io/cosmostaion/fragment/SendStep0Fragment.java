@@ -18,11 +18,26 @@ import android.widget.Toast;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
+import org.apache.http.Header;
+import org.apache.http.HttpEntity;
+import org.apache.http.client.methods.CloseableHttpResponse;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.util.EntityUtils;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
+import okhttp3.OkHttpClient;
+import retrofit2.Response;
 import wannabit.io.cosmostaion.R;
 import wannabit.io.cosmostaion.activities.SendActivity;
 import wannabit.io.cosmostaion.base.BaseChain;
 import wannabit.io.cosmostaion.base.BaseConstant;
 import wannabit.io.cosmostaion.base.BaseFragment;
+import wannabit.io.cosmostaion.network.ApiClient;
+import wannabit.io.cosmostaion.network.res.ResBnbHistories;
 import wannabit.io.cosmostaion.utils.WKey;
 import wannabit.io.cosmostaion.utils.WLog;
 
@@ -153,6 +168,38 @@ public class SendStep0Fragment extends BaseFragment implements View.OnClickListe
         IntentResult result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data);
         if(result != null) {
             if(result.getContents() != null) {
+//                HttpURLConnection httpClient;
+//            /**********************************************/
+//            try {
+//                httpClient = (HttpURLConnection) new URL("https://www.google.com/search?q=mkyong").openConnection();
+//
+//                // optional default is GET
+//                httpClient.setRequestMethod("GET");
+//
+////                HttpGet request = new HttpGet("https://www.google.com/search?q=mkyong");
+//                httpClient.setRequestProperty("User-Agent", "Mozilla/5.0");
+//
+//                try (BufferedReader in = new BufferedReader(
+//                        new InputStreamReader(httpClient.getInputStream()))) {
+//
+//                    StringBuilder response = new StringBuilder();
+//                    String line;
+//
+//                    while ((line = in.readLine()) != null) {
+//                        response.append(line);
+//                    }
+//
+//
+//                }catch (Exception e){
+//                    String a = "";
+//                }
+//
+//            }catch (Exception e){
+//                String a = "";
+//            }
+
+                /**********************************************/
+
                 if(result.getContents().contains("/")){
                     scannedText = result.getContents().split("/");
                     sAmount = scannedText[1];

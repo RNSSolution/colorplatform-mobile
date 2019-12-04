@@ -195,14 +195,16 @@
                 android:layout_marginTop="@dimen/space_18"
                 android:layout_centerVertical="true"
                 style="@style/font_ss_11_gray1"
-                android:text="@string/str_support"/>
+                android:text="@string/str_support"
+                android:visibility="gone"/>
             <FrameLayout
                 android:id="@+id/card_guide"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/space_50"
                 android:layout_marginTop="@dimen/space_8"
                 android:clickable="true"
-                android:background="@drawable/box_trans_round">
+                android:background="@drawable/box_trans_round"
+                android:visibility="gone">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -227,7 +229,8 @@
                 android:layout_height="@dimen/space_50"
                 android:layout_marginTop="@dimen/space_8"
                 android:clickable="true"
-                android:background="@drawable/box_trans_round">
+                android:background="@drawable/box_trans_round"
+                android:visibility="gone">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -252,7 +255,8 @@
                 android:layout_height="@dimen/space_50"
                 android:layout_marginTop="@dimen/space_8"
                 android:clickable="true"
-                android:background="@drawable/box_trans_round">
+                android:background="@drawable/box_trans_round"
+                android:visibility="gone">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -278,7 +282,8 @@
                 android:layout_height="@dimen/space_50"
                 android:layout_marginTop="@dimen/space_8"
                 android:clickable="true"
-                android:background="@drawable/box_trans_round">
+                android:background="@drawable/box_trans_round"
+                android:visibility="gone">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -305,14 +310,16 @@
                 android:layout_marginTop="@dimen/space_18"
                 android:layout_centerVertical="true"
                 style="@style/font_ss_11_gray1"
-                android:text="@string/str_app_info"/>
+                android:text="@string/str_app_info"
+                android:visibility="gone"/>
             <FrameLayout
                 android:id="@+id/card_term"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/space_50"
                 android:layout_marginTop="@dimen/space_8"
                 android:clickable="true"
-                android:background="@drawable/box_trans_round">
+                android:background="@drawable/box_trans_round"
+                android:visibility="gone">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -337,7 +344,8 @@
                 android:layout_height="@dimen/space_50"
                 android:layout_marginTop="@dimen/space_8"
                 android:clickable="true"
-                android:background="@drawable/box_trans_round">
+                android:background="@drawable/box_trans_round"
+                android:visibility="gone">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -362,7 +370,8 @@
                 android:layout_height="@dimen/space_50"
                 android:layout_marginTop="@dimen/space_8"
                 android:clickable="true"
-                android:background="@drawable/box_trans_round">
+                android:background="@drawable/box_trans_round"
+                android:visibility="gone">
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">

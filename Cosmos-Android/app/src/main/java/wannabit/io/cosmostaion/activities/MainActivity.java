@@ -1,6 +1,7 @@
 package wannabit.io.cosmostaion.activities;
 
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.NonNull;
@@ -27,7 +28,11 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.math.BigDecimal;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
 
 import wannabit.io.cosmostaion.R;
@@ -96,10 +101,12 @@ public class MainActivity extends BaseActivity implements FetchCallBack {
         mChainRecyclerView      = findViewById(R.id.chain_recycler);
         mAccountRecyclerView    = findViewById(R.id.account_recycler);
 
+
         mFloatBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onStartSendActivity();
+
             }
         });
 
